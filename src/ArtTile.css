@@ -1,0 +1,60 @@
+.ArtTile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.ArtTile-spotlight {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(
+    circle,
+    transparent 160px,
+    rgba(0, 0, 0, 0.60) 450px
+  );
+}
+
+.ArtTile-painting {
+  font-size: 18px;
+}
+
+.ArtTile-painting .name {
+  font-weight: 650;
+  margin-block-start: 0.2em;
+  margin-block-end: 0;
+}
+
+.ArtTile-painting .title {
+  margin-block-end: 0;
+}
+
+.ArtTile-painting .sub-title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ArtTile-spotlight {
+    background-image: radial-gradient(
+      circle,
+      transparent 160px,
+      rgba(0, 0, 0, 0.60) 290px
+    );
+  }
+
+  .ArtTile-painting img {
+    width: 75vw;
+  }
+
+  .ArtTile-painting p {
+    font-size: 12px;
+  }
+
+  .ArtTile-painting .sub-title {
+    font-size: 11px;
+  }
+}

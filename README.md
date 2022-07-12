@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+## Overview
+
+Simple web page displaying "A Woman Seated beside a Vase of Flowers" by Edgar Degas from the Metropolitan Museum of Art.
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
