@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";compo
+import React, { useState, useEffect } from "react";
 import "./MuseumWall.css"
 import ArtTile from "./ArtTile";
 
