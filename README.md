@@ -2,6 +2,10 @@
 
 Simple web page displaying "A Woman Seated beside a Vase of Flowers" by Edgar Degas from the Metropolitan Museum of Art.
 
+Built with: React & CSS
+
+Suggested scripts: `npm install` then `npm start` to view the page on [http://localhost:3000](http://localhost:3000)
+
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
